@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+}
+
+.nagykep{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nagykep>button{
+    flex: 0 0 20px;
+    max-height: 100px;
+}
+
+.fokeptarolo{
+    max-width: 600px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3%;
+}
